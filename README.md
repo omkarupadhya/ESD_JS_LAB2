@@ -36,7 +36,7 @@ gives `2`. You need it from section 07 on; this lab's `npm test` doesn't use it.
 **Stretch** is extra: `npm run test:stretch` checks it. Ask about either, any time.
 
 ```bash
-npm test               # core tests — get these to "# fail 0"
+npm test               # core tests — get these to "fail 0"
 npm run test:stretch   # stretch tests
 npm run web            # the app + a local course API → http://localhost:5500/web/
 npm run repl           # a console with everything in src/ loaded (top-level await works)
@@ -82,7 +82,7 @@ The app's **Network** switch adds those last options for you.
 
 ## Done means
 
-`npm test` ends with `# fail 0`, the app does everything on the checklist in
+`npm test` ends with `fail 0`, the app does everything on the checklist in
 section 07 of the doc, focus stays on a grade dropdown after picking (section
 08), and the Random network can't make the list disagree with the department
 (section 09). Stretch is a bonus.
