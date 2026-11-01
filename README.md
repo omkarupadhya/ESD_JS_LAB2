@@ -22,10 +22,10 @@ Node.js 20 or newer. Nothing to `npm install`.
 The app here is built on **your** `useState` from JS Lab 1 §15, so this starter doesn't
 contain it: `src/state.js` is a stub that throws "TODO". `npm run carry -- ../js-lab1`
 copies your `js-lab1/src/s15-state.js` over it (the stub is kept in `.carry-backup/`).
-Nothing to merge by hand. Lab 2 needs §15's **stretch** too (updater functions, and the
-`Object.is` skip): in `js-lab1`, `npm run test:stretch` should pass `s15.stretch.test.js`.
+Nothing to merge by hand. Lab 2 needs all of §15, including "A smarter setState" (updater
+functions, and the `Object.is` skip): in `js-lab1`, `npm test` should pass `s15-smarter.test.js`.
 It worked when `npm run repl` → `const [get, set] = useState(1, () => {}); set((n) => n + 1); get()`
-gives `2`. You need it from section 07 on; `npm test` doesn't use it.
+gives `2`. You need it from section 07 on; this lab's `npm test` doesn't use it.
 
 **If your Lab 1 isn't finished, ask your TA** — the solution may be handed out later, and
 `npm run carry -- <that folder>` works from it too.
@@ -47,7 +47,7 @@ npm run repl           # a console with everything in src/ loaded (top-level awa
 | Doc section | File you edit | Run just its tests |
 | --- | --- | --- |
 | 03 Promises and await | `src/s03-async.js` | `node --test test/s03.test.js` |
-| 03 Predict, then run | `predict/async.js` | `node predict/async.js` |
+| 03 — stretch: predict, then run | `predict/async.js` | `node predict/async.js` |
 | 04 fetch, URLs and failures | `src/s04-api.js` | `node --test test/s04.test.js` |
 | 05 State and transitions | `src/s05-store.js` | `node --test test/s05.test.js` |
 | 05 — stretch: rules in `ADD` | `src/s05-store.js` | `node --test test/stretch/s05.stretch.test.js` |

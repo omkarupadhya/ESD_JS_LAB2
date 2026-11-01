@@ -1,4 +1,4 @@
-// useState — from JS Lab 1, section 15, core AND stretch. This lab's app is built on it.
+// useState — from JS Lab 1, section 15, with its smarter setState. This lab's app is built on it.
 // It's your own code: `npm run carry -- ../js-lab1` copies your js-lab1/src/s15-state.js
 // over this file (section 01 of the lab doc). Until then, calling it throws "TODO".
 //
